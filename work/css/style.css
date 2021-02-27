@@ -24,7 +24,7 @@ input, select, button {
   margin-top: 25px;
 }
 
-.content-title-1 {
+.content-title-h {
   font-size: 18px;
   color: #000000;
 }
@@ -102,22 +102,22 @@ input, select, button {
   transform: rotate(45deg);
 }
 
-.gender-1 {
+.gender-label {
   margin-left: 10px;
 }
 
-.gender-1:first-child {
+.gender-label:first-child {
   margin-left: 0;
 }
 
-.gender-1 span{
+.gender-label span{
   position: relative;
   display: inline-block;
   padding: 3px 3px 3px 20px;
   color: #545658;
 }
 
-.gender-1 span:before {
+.gender-label span:before {
   width: 14px;
   height: 14px;
   top: 50%;
@@ -130,7 +130,7 @@ input, select, button {
   transform: translateY(-50%);
 }
 
-.gender-2:checked +span:after {
+.gender-input:checked +span:after {
   content: "";
   position: absolute;
   top: 50%;
